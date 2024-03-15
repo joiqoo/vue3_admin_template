@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import App from '@/App.vue'
 //import element-plus plugin and css style
-import ElementPlus from 'element-plus';
+import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 
 // get the app instance object
