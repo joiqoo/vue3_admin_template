@@ -16,5 +16,8 @@ import globalComponent from '@/components'
 // install custom plugin
 app.use(globalComponent)
 
+// import global style
+import '@/styles/index.scss'
+
 // mout the app
 app.mount('#app')

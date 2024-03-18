@@ -1,13 +1,7 @@
 <template>
-    <div>
-        This is a Pagination component.
-    </div>
+  <div>This is a Pagination component.</div>
 </template>
 
-<script setup lang="ts">
+<script setup lang="ts"></script>
 
-</script>
-
-<style scoped>
-
-</style>
+<style scoped></style>
