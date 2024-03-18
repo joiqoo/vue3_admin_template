@@ -8,5 +8,13 @@ import 'element-plus/dist/index.css'
 const app = createApp(App)
 // install element-plus plugin
 app.use(ElementPlus)
+// svg plugin
+import 'virtual:svg-icons-register'
+
+//import custom plugin object to register global components
+import globalComponent from '@/components'
+// install custom plugin
+app.use(globalComponent)
+
 // mout the app
 app.mount('#app')
