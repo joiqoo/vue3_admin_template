@@ -14,17 +14,16 @@ import router from './router'
 //import store
 import pinia from './store'
 
-
 // get the app instance object
-const app = createApp(App);
+const app = createApp(App)
 // install element-plus plugin
-app.use(ElementPlus);
+app.use(ElementPlus)
 // install custom plugin
-app.use(globalComponent);
+app.use(globalComponent)
 // register the router
-app.use(router);
+app.use(router)
 // install store
-app.use(pinia);
+app.use(pinia)
 
 // mout the app
-app.mount('#app');
+app.mount('#app')

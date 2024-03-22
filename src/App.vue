@@ -15,7 +15,6 @@ onMounted(() => {
   // }).then((res) => {
   //   console.log(res)
   // })
-
   // reqLogin({username:'admin',password:'111111'})
 })
 </script>
@@ -24,7 +23,7 @@ onMounted(() => {
   <div>
     <!-- <h1>this is app root component</h1> -->
     <router-view></router-view>
-<!-- 
+    <!-- 
     <svg-icon
       name="phone"
       customColor="red"
@@ -39,6 +38,4 @@ onMounted(() => {
   </div>
 </template>
 
-<style scoped lang="scss">
-
-</style>
+<style scoped lang="scss"></style>
