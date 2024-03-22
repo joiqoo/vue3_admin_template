@@ -1,1 +1,22 @@
-@import './reset.scss'
+@import './reset.scss';
+
+
+/* Style the scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color of the scrollbar thumb */
+    border-radius: 5px;
+    /* Round the corners of the thumb */
+}
+
+/* Optional: Style the scrollbar track */
+::-webkit-scrollbar-track {
+    background-color: #001529;
+    /* Color of the scrollbar track */
+}
